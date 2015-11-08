@@ -59,7 +59,7 @@
 #define EXTRUDER_FAN_COOL_TEMP 50
 #define EXT0_X_OFFSET 0
 #define EXT0_Y_OFFSET 0
-#define EXT0_STEPS_PER_MM 450
+#define EXT0_STEPS_PER_MM 100
 #define EXT0_TEMPSENSOR_TYPE 1
 #define EXT0_TEMPSENSOR_PIN TEMP_0_PIN
 #define EXT0_HEATER_PIN HEATER_0_PIN
@@ -181,7 +181,7 @@
 #define Z_HOME_DIR 1
 #define X_MAX_LENGTH 200
 #define Y_MAX_LENGTH 200
-#define Z_MAX_LENGTH 306.75
+#define Z_MAX_LENGTH 290
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
@@ -201,14 +201,14 @@
 #define DELTA_ALPHA_A 210
 #define DELTA_ALPHA_B 330
 #define DELTA_ALPHA_C 90
-#define DELTA_RADIUS_CORRECTION_A 28.4
-#define DELTA_RADIUS_CORRECTION_B 28.4
-#define DELTA_RADIUS_CORRECTION_C 28.4
+#define DELTA_RADIUS_CORRECTION_A 0
+#define DELTA_RADIUS_CORRECTION_B 0
+#define DELTA_RADIUS_CORRECTION_C 0
 #define DELTA_DIAGONAL_CORRECTION_A 0
 #define DELTA_DIAGONAL_CORRECTION_B 0
 #define DELTA_DIAGONAL_CORRECTION_C 0
 #define DELTA_MAX_RADIUS 150
-#define DELTA_RADIUS 140
+#define DELTA_RADIUS 130
 #define DELTA_HOME_ON_POWER 0
 #define STEP_COUNTER
 #define DELTA_X_ENDSTOP_OFFSET_STEPS 0
@@ -472,7 +472,7 @@ Values must be in range 1..255
     "zMinPos": 0,
     "xLength": 200,
     "yLength": 200,
-    "zLength": 320,
+    "zLength": 290,
     "alwaysCheckEndstops": "1",
     "disableX": "0",
     "disableY": "0",
@@ -486,8 +486,8 @@ Values must be in range 1..255
     "zEndstopBack": 0,
     "deltaSegmentsPerSecondPrint": 180,
     "deltaSegmentsPerSecondTravel": 70,
-    "deltaDiagonalRod": 400,
-    "deltaHorizontalRadius": 140,
+    "deltaDiagonalRod": 333,
+    "deltaHorizontalRadius": 130,
     "deltaAlphaA": 210,
     "deltaAlphaB": 330,
     "deltaAlphaC": 90,
